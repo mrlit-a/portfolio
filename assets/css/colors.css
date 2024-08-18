@@ -1,0 +1,150 @@
+/* COLORS */
+
+/* LIGHT */
+/*:root {*/
+/*    !* GENERAL *!*/
+/*    --scrollbar: #000000FF;*/
+/*    --background: #ffffff;*/
+/*    --text: #000000;*/
+/*    --svg: #232121;*/
+
+/*    !* NAVBAR *!*/
+/*    --navbarBrand: #2b2b2b;*/
+/*    --navbarBtn: #C8C8C893;*/
+/*    --navbarBtnHover: #2b2b2b;*/
+/*    --navbarHamburger: #000000;*/
+/*    --navbarMobileBorder: #707070;*/
+/*    --navbarLink: #2b2b2b;*/
+
+/*    !* HEADER *!*/
+/*    --headerTitle: #2b2b2b;*/
+/*    --headerSkills: #656565;*/
+/*    --HeaderDescription: #2b2b2b;*/
+
+/*    --headerBtnDark: #2B2B2B;*/
+/*    --headerBtnDarkText: #FFFFFF;*/
+
+/*    --headerBtnOutline: #C8C8C893;*/
+/*    --headerBtnOutlineText: #2b2b2b;*/
+/*    --headerBtnOutlineHover: #2b2b2b;*/
+
+/*    !* SERVICES *!*/
+/*    --servicesBackground: #F4F9FA;*/
+/*    --servicesTitle: #2b2b2b;*/
+/*    --servicesDescription: #2b2b2b;*/
+/*    --servicesCardOutline: #DADEDF;*/
+
+/*    !* ABOUT *!*/
+/*    --aboutBackground: #F8F8F8;*/
+/*    --aboutSmallHeader: #2B2B2BCE;*/
+/*    --aboutName: #2b2b2b;*/
+/*    --aboutProfession: #2B2B2BCE;*/
+/*    --aboutDescription: #515151;*/
+/*    --aboutBr: #808080FF;*/
+/*    --aboutStatsNumber: #2b2b2b;*/
+/*    --aboutStatsInfo: #2B2B2BCE;*/
+
+/*    !* PORTFOLIO *!*/
+/*    --portfolioTitle: #2b2b2b;*/
+/*    --portfolioDescription: #2b2b2b;*/
+
+/*    --portfolioDefaultBtn: #C8C8C893;*/
+/*    --portfolioDefaultBtnText: #2b2b2b;*/
+/*    --portfolioDefaultBtnHover: #2b2b2b;*/
+
+/*    --portfolioDefaultBtnActive: #2B2B2B;*/
+/*    --portfolioDefaultBtnActiveText: #FFFFFF;*/
+
+/*    --portfolioCardSubtitle: #444;*/
+/*    --portfolioCardDescription: #6d6d6d;*/
+
+/*    !* REVIEWS *!*/
+/*    --reviewsBackground: #F8F8F8;*/
+/*    --reviewsTitle: #2b2b2b;*/
+/*    --reviewsDescription: #2b2b2b;*/
+
+/*    --reviewsCardBackground: #F1F1F1;*/
+/*    --reviewsInfoStar: #515151;*/
+/*    --reviewsCardTitle: #2b2b2b;*/
+/*    --reviewsCardSubtitle: #2B2B2BCE;*/
+/*    --reviewsCardDescription: #6d6d6d;*/
+
+/*    !* FOOTER *!*/
+/*    --footerBrand: #2b2b2b;*/
+/*    --footerCopyright: #2B2B2BCE;*/
+/*}*/
+
+/* DARK */
+:root {
+    /* GENERAL */
+    --scrollbar: #FFFFFF;
+    --background: #101010;
+    --text: #FFFFFF;
+    --svg: #818181;
+
+    /* NAVBAR */
+    --navbarBrand: #E8E8E8;
+    --navbarBtn: #494646;
+    --navbarBtnHover: #363333;
+    --navbarHamburger: #494646;
+    --navbarMobileBorder: #FFFFF;
+    --navbarLink: #FFFFFF;
+
+    /* HEADER */
+    --headerTitle: #F5F5F5;
+    --headerSkills: #656565;
+    --HeaderDescription: #AFAFAF;
+
+    --headerBtnDark: #1E1E1E;
+    --headerBtnDarkText: #FFFFFF;
+
+    --headerBtnOutline: #494646;
+    --headerBtnOutlineText: #F5F5F5;
+    --headerBtnOutlineHover: #363333;
+
+    /* SERVICES */
+    --servicesBackground: #171717;
+    --servicesTitle: #E2E2E2;
+    --servicesDescription: #BEBEBE;
+    --servicesCardOutline: #303030;
+
+    /* ABOUT */
+    --aboutBackground: #2B2B2B;
+    --aboutSmallHeader: #757575;
+    --aboutName: #DCDCDC;
+    --aboutProfession: #DCDCDC;
+    --aboutDescription: #7c7c7c;
+    --aboutBr: #474747;
+    --aboutStatsNumber: #E9E9E9;
+    --aboutStatsInfo: #E9E9E9;
+
+    /* PORTFOLIO */
+    --portfolioTitle: #FBFBFB;
+    --portfolioDescription: #FBFBFB;
+
+    --portfolioDefaultBtn: #494646;
+    --portfolioDefaultBtnText: #F5F5F5;
+    --portfolioDefaultBtnHover: #363333;
+
+    --portfolioDefaultBtnActive: #1E1E1E;
+    --portfolioDefaultBtnActiveText: #FFFFFF;
+
+    --portfolioCardSubtitle: #858585;
+    --portfolioCardDescription: #6D6D6D;
+
+    /* REVIEWS */
+    --reviewsBackground: #2B2B2B;
+    --reviewsTitle: #ECECEC;
+    --reviewsDescription: #B2B2B2;
+
+    --reviewsCardBackground: #313131;
+    --reviewsInfoStar: #ABABAB;
+    --reviewsCardTitle: #EEEEEE;
+    --reviewsCardSubtitle: #818181;
+    --reviewsCardDescription: #6D6D6D;
+
+    /* FOOTER */
+    --footerBrand: #FFFFFF;
+    --footerCopyright: #D8D8D8;
+}
+

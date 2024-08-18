@@ -1,0 +1,122 @@
+/* REVIEWS SECTION */
+.reviews__section{
+    margin: 0 2% 80px;
+    background-color: var(--reviewsBackground);
+    border-radius: 30px;
+    padding: 6% 12%;
+}
+
+.reviews__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reviews__header h2{
+    color: var(--reviewsTitle);
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.reviews__header p{
+    width: 40%;
+    font-weight: 500;
+    color: var(--reviewsDescription);
+    margin-bottom: 50px;
+}
+
+.stars__card{
+    background-color: var(--reviewsCardBackground);
+    border-radius: 15px;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.reviews__cards .row{
+    gap: 4%;
+}
+
+.stars__card svg{
+    margin: 0 5px;
+}
+
+.stars__card span{
+    margin-left: 20px;
+    margin-top: 2px;
+    color: var(--reviewsInfoStar);
+    font-weight: 800;
+}
+
+.review__card{
+    background-color: var(--reviewsCardBackground);
+    border-radius: 30px;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.review__card img{
+    width: 95px;
+    border-radius: 50%;
+    margin-bottom: 23px;
+}
+
+.review__card h2{
+    color: var(--reviewsCardTitle);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.review__card h5{
+    margin-bottom: 20px;
+    color: var(--reviewsCardSubtitle);
+}
+
+.review__card .stars{
+    margin-bottom: 20px;
+}
+
+.review__card p{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--reviewsCardDescription);
+}
+
+@media only screen and (max-width: 1100px) {
+    .reviews__section{
+        padding: 15% 7% 5%;
+    }
+
+    .reviews__header h2{
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+
+    .reviews__header p{
+        width: 90%;
+    }
+
+    .stars__card{
+        padding: 20px 40px;
+    }
+
+    .reviews__cards .row{
+        gap: 0;
+    }
+
+    .stars__card svg{
+        margin: 0 3px;
+    }
+
+    .stars__card span{
+        margin-left: 15px;
+    }
+}

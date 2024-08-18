@@ -1,0 +1,35 @@
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer h4{
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--footerBrand);
+    margin-bottom: 10px;
+}
+
+.footer h4 span{
+    font-weight: 900;
+}
+
+.footer h5{
+    font-weight: 600;
+    color: var(--footerCopyright);
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer h4{
+        font-size: 18px;
+    }
+
+    .footer .social{
+        padding-bottom: 20px;
+    }
+}
